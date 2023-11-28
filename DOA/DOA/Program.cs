@@ -21,5 +21,11 @@ myArray.PrintArray();
 myArray.InsertLast(9);
 myArray.ReturnLength();
 
+//// Print Array
+myArray.PrintArray();
+
+myArray.InsertFirst(9);
+myArray.ReturnLength();
+
 // Print Array
 myArray.PrintArray();
