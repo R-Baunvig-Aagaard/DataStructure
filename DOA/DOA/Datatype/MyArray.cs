@@ -22,15 +22,13 @@ public class MyArray
         {
             _intArray[i] = i + 1;
             _realLength++;
-
         }
         
     }
     public void InsertLast(int value)
     {
         _intArray[_realLength] = value;
-        _realLength++;
-        
+        _realLength++;  
     }
 
     public void InsertFirst(int value)
@@ -45,8 +43,8 @@ public class MyArray
             _intArray[0] = value;
             _realLength++;
         }
+       
         else { Console.WriteLine("Array is allready at maxed capacity"); }
-        
     }
 
     public void InsertAtIndex(int value, int index)
@@ -61,8 +59,18 @@ public class MyArray
             _intArray[index] = value;
             _realLength++;
         }
+       
         else { Console.WriteLine("Array is allready at maxed capacity"); }
+    }
 
+    public void DeleteAtIndex(int index)
+    {
+        for ( int i = index +1; i<_realLength; i++)
+        {
+            _intArray[i - 1] = _intArray[i];
+        }
+        _intArray[_realLength-1] = 0;
+        _realLength--;
     }
 
     public int ReturnLength()
