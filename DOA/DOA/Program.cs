@@ -17,15 +17,19 @@ myArray.ReturnLength();
 // Print Array
 myArray.PrintArray();
 
-// Insert value at end of array
-myArray.InsertLast(9);
-myArray.ReturnLength();
+//// Insert value at end of array
+//myArray.InsertLast(9);
+//myArray.ReturnLength();
+
+////// Print Array
+//myArray.PrintArray();
+
+//myArray.InsertFirst(9);
+//myArray.ReturnLength();
 
 //// Print Array
-myArray.PrintArray();
+//myArray.PrintArray();
 
-myArray.InsertFirst(9);
-myArray.ReturnLength();
-
-// Print Array
-myArray.PrintArray();
+//myArray.InsertAtIndex(9, 2);
+//myArray.ReturnLength();
+//myArray.PrintArray();

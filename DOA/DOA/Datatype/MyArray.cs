@@ -47,6 +47,21 @@ public class MyArray
         }
         else { Console.WriteLine("Array is allready at maxed capacity"); }
         
+    }
+
+    public void InsertAtIndex(int value, int index)
+    {
+        if (_realLength < _intArray.Length)
+        {
+            for (int i = _realLength - 1; i >= index; i--)
+            {
+                _intArray[i + 1] = _intArray[i];
+            }
+
+            _intArray[index] = value;
+            _realLength++;
+        }
+        else { Console.WriteLine("Array is allready at maxed capacity"); }
 
     }
 
