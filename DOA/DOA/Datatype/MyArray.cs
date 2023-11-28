@@ -86,5 +86,20 @@ public class MyArray
             Console.WriteLine(i);
         }
     }
+
+    public int LinearSearchArray( int key)
+    {
+        for (int i = 0; i < _intArray.Length; i++)
+        {
+            if (_intArray[i] == key)
+            {
+                Console.WriteLine($"{key} was found at index: {i}");
+                return i;
+            }
+
+        }
+        Console.WriteLine($"{key} was NOT found in array");
+        return -1;
+    }
 }
 

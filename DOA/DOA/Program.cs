@@ -34,8 +34,10 @@ myArray.PrintArray();
 //myArray.ReturnLength();
 //myArray.PrintArray();
 
-myArray.DeleteAtIndex(1);
-myArray.ReturnLength();
+//myArray.DeleteAtIndex(1);
+//myArray.ReturnLength();
 
-//Print Array
-myArray.PrintArray();
+////Print Array
+//myArray.PrintArray();
+
+var result = myArray.LinearSearchArray(2);
