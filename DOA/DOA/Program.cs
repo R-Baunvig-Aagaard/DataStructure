@@ -97,3 +97,58 @@ using System.Collections.Generic;
 //Console.WriteLine(myStack.Peek());
 
 #endregion
+
+#region Queue
+//// https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.queue-1?view=net-8.0
+
+//Queue<int> myQueue = new Queue<int>();
+
+//myQueue.Enqueue(1);
+//myQueue.Enqueue(2); 
+//myQueue.Enqueue(3);
+//myQueue.Enqueue(4);
+
+//foreach (int i in myQueue)
+//{
+//    Console.WriteLine(i);
+//}
+//// Dequeue first and second in line FIFO
+//myQueue.Dequeue();
+//myQueue.Dequeue();
+
+//foreach (int i in myQueue)
+//{
+//    Console.WriteLine(i);
+//}
+//// Now first in line
+//Console.WriteLine(myQueue.Peek());
+
+#endregion
+
+#region Dictionary 
+//// Dictionary 
+
+//Dictionary<int,string> keyValuePairs = new Dictionary<int,string>();
+
+//keyValuePairs.Add(1, "Rasmus");
+//keyValuePairs.Add(2, "Jacob");
+//keyValuePairs.Add(3, "Mikkel");
+
+//Console.WriteLine(keyValuePairs.Count());
+//Console.WriteLine(keyValuePairs.ContainsKey(2));
+//Console.WriteLine(keyValuePairs[2]);
+
+//Dictionary<string,List<string>> wishList = new Dictionary<string,List<string>>();
+//wishList.Add("Rasmus", new List<string> {"Snow","Sun","Rain" });
+//wishList.Add("Jacob", new List<string> { "Angry", "Sad", "Happy" });
+
+//foreach (var (key, value) in wishList )
+//{
+//    Console.WriteLine($"Wishlist for {key}:");
+//    foreach (var item in value)
+//    {
+//        Console.WriteLine($"\t{item}");
+//    }
+//}
+
+#endregion
