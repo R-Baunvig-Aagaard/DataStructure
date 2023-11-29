@@ -2,9 +2,6 @@
 using DOA.Datatype.Linked_List;
 using System.Collections.Generic;
 
-using System;
-using System.Text;
-
 #region Array
 /*  Array
     type[] arrayName; 
@@ -82,5 +79,21 @@ using System.Text;
 //sentence.AddFirst("First");
 //sentence.AddLast("Last");
 
+
+#endregion
+
+#region Stack
+////https://learn.microsoft.com/en-us/dotnet/api/system.collections.stack?view=net-8.0
+
+//Stack<string> myStack = new Stack<string>();
+
+//myStack.Push("Hello");
+//myStack.Push("World");
+
+//Console.WriteLine(myStack.Peek());
+//Console.WriteLine(myStack.Contains("Hello"));
+
+//myStack.Pop();
+//Console.WriteLine(myStack.Peek());
 
 #endregion
